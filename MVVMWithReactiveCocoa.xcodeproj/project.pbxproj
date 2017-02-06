@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		78BBC2371E4690C700EB50FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BBC2361E4690C700EB50FE /* main.m */; };
 		78BBC23A1E4690C700EB50FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BBC2391E4690C700EB50FE /* AppDelegate.m */; };
-		78BBC23D1E4690C700EB50FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BBC23C1E4690C700EB50FE /* ViewController.m */; };
 		78BBC2401E4690C700EB50FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BBC23E1E4690C700EB50FE /* Main.storyboard */; };
 		78BBC2421E4690C700EB50FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BBC2411E4690C700EB50FE /* Assets.xcassets */; };
 		78BBC2451E4690C700EB50FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BBC2431E4690C700EB50FE /* LaunchScreen.storyboard */; };
+		78DC463B1E4698B9003A22ED /* MVVMWRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DC463A1E4698B9003A22ED /* MVVMWRCViewController.m */; };
+		78DC463E1E47F572003A22ED /* MVVMWRCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DC463D1E47F572003A22ED /* MVVMWRCViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		78BBC2361E4690C700EB50FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78BBC2381E4690C700EB50FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78BBC2391E4690C700EB50FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78BBC23B1E4690C700EB50FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78BBC23C1E4690C700EB50FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78BBC23F1E4690C700EB50FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78BBC2411E4690C700EB50FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78BBC2441E4690C700EB50FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78BBC2461E4690C700EB50FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DC46391E4698B9003A22ED /* MVVMWRCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMWRCViewController.h; sourceTree = "<group>"; };
+		78DC463A1E4698B9003A22ED /* MVVMWRCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMWRCViewController.m; sourceTree = "<group>"; };
+		78DC463C1E47F551003A22ED /* MVVMWRCViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMWRCViewModel.h; sourceTree = "<group>"; };
+		78DC463D1E47F572003A22ED /* MVVMWRCViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMWRCViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				78BBC2381E4690C700EB50FE /* AppDelegate.h */,
 				78BBC2391E4690C700EB50FE /* AppDelegate.m */,
-				78BBC23B1E4690C700EB50FE /* ViewController.h */,
-				78BBC23C1E4690C700EB50FE /* ViewController.m */,
+				78DC463C1E47F551003A22ED /* MVVMWRCViewModel.h */,
+				78DC463D1E47F572003A22ED /* MVVMWRCViewModel.m */,
+				78DC46391E4698B9003A22ED /* MVVMWRCViewController.h */,
+				78DC463A1E4698B9003A22ED /* MVVMWRCViewController.m */,
 				78BBC23E1E4690C700EB50FE /* Main.storyboard */,
 				78BBC2411E4690C700EB50FE /* Assets.xcassets */,
 				78BBC2431E4690C700EB50FE /* LaunchScreen.storyboard */,
@@ -151,9 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78BBC23D1E4690C700EB50FE /* ViewController.m in Sources */,
 				78BBC23A1E4690C700EB50FE /* AppDelegate.m in Sources */,
 				78BBC2371E4690C700EB50FE /* main.m in Sources */,
+				78DC463B1E4698B9003A22ED /* MVVMWRCViewController.m in Sources */,
+				78DC463E1E47F572003A22ED /* MVVMWRCViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +316,7 @@
 				78BBC24B1E4690C700EB50FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

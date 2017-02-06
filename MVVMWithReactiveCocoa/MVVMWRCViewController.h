@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MVVMWRCViewController.h
 //  MVVMWithReactiveCocoa
 //
 //  Created by Cenker Demir on 2/4/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MVVMWRCViewController : UIViewController
+
 
 
 @end
-
