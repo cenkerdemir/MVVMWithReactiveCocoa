@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ReactiveObjC.h>
 
 @interface MVVMWRCViewModel : NSObject
-
 
 
 @end
