@@ -58,6 +58,9 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+<<<<<<< HEAD
 
 Pods
 .DS_Store
+=======
+>>>>>>> 63f82bf8843dedc20513b4bfc1135bdabf052a73
